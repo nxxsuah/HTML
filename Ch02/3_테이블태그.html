@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <h3>3_테이블태그</h3> <!--table/tr행/th열제목/td셀-->
+    </head>
+    <body>
+        <h3>3.테이블태그</h3>
+
+        <h4>사용자목록</h4>
+        <table border="1">
+            <caption> 사용자목록 </caption>
+            <tr> <!--table row-->
+                <th>아이디</th> <!--table header-->
+                <th>이름</th>
+                <th>생년월일</th>
+                <th>나이</th>
+                <th>관리</th>
+            </tr>
+            <tr>
+                <td>a101</td> <!--table data-->
+                <td>김유신</td>
+                <td>1992-03-01</td>
+                <td>25</td>
+                <td>
+                    <a href="#"> 수정</a>
+                    <a href="#"> 삭제</a>
+                </td>
+            </tr>
+            <tr>
+                <td>a102</td>
+                <td>김춘추</td>
+                <td>1992-04-12</td>
+                <td>26</td>
+                <td>
+                    <a href="#"> 수정</a>
+                    <a href="#"> 삭제</a>
+                </td>
+            </tr>
+            <tr>
+                <td>a103</td>
+                <td>장보고</td>
+                <td>1991-11-13</td>
+                <td>42</td>
+                <td>
+                    <a href="#"> 수정</a>
+                    <a href="#"> 삭제</a>
+                </td>
+            </tr>
+            <tr>
+                <td>a104</td>
+                <td>강감찬</td>
+                <td>1999-04-12</td>
+                <td>25</td>
+                <td>
+                    <a href="#"> 수정</a>
+                    <a href="#"> 삭제</a>
+                </td>
+            </tr>
+            <tr>
+                <td>a105</td>
+                <td>이순신</td>
+                <td>1989-07-25</td>
+                <td>33</td>
+                <td>
+                    <a href="#"> 수정</a>
+                    <a href="#"> 삭제</a>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+
+<html>
+    <body>
+        <table border="1">
+        <tr>
+            <td colspan="2">1 X 1</td>
+            <td colspan="3">1 X 3</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="2">2 X 1</td>
+            <td rowspan="3">2 X 2</td>
+            <td colspan="2">2 X 3</td>
+            <td>2 X 5</td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2">3 X 3</td>
+            <td>3 X 5</td>
+        </tr>
+        <tr>
+            <td>4 X 1</td>       
+            <td>4 X 5</td>
+        </tr>
+        <tr>
+            <td>5 X 1</td>
+            <td>5 X 2</td>
+            <td>5 X 3</td>
+            <td>5 X 4</td>
+            <td>5 X 5</td>
+        </tr>
+        </table>
+    </body>
+</html>
